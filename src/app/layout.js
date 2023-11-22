@@ -1,5 +1,6 @@
 import { Figtree, Urbanist } from "next/font/google";
 import "./globals.css";
+import Navigation from "@/components/Navigation/Navigation";
 
 // const inter = Inter({ subsets: ["latin"] });
 const figtree = Figtree({
@@ -21,7 +22,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${figtree.variable} ${urbanist.variable}`}>
-      <body>{children}</body>
+      <body>
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }
