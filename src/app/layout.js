@@ -1,6 +1,8 @@
 import { Figtree, Urbanist } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation/Navigation";
+import Footer from "@/components/Footer/Footer";
+import Script from "next/script";
 
 // const inter = Inter({ subsets: ["latin"] });
 const figtree = Figtree({
@@ -25,6 +27,8 @@ export default function RootLayout({ children }) {
       <body>
         <Navigation />
         {children}
+        <Footer />
+        <Script src="https://tally.so/widgets/embed.js"></Script>
       </body>
     </html>
   );

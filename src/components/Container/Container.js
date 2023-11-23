@@ -11,6 +11,7 @@ const sizes = {
 };
 
 export default function Container({
+  id = "",
   children,
   size,
   background = "",
@@ -20,7 +21,7 @@ export default function Container({
     return sizes[size] || "max-w-7xl";
   });
   return (
-    <section className={background}>
+    <section id={id} className={background}>
       <div
         className={`container mx-auto ${getSize} px-6 sm:px-12 py-24 ${className}`}>
         {children}

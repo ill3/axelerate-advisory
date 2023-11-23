@@ -8,7 +8,19 @@ module.exports = {
   ],
   theme: {
     colors: {
-      primary: "#1D3564",
+      primary: {
+        100: "#406EC8",
+        200: "#3561B8",
+        300: "#2F56A2",
+        400: "#294A8D",
+        500: "#233F78",
+        600: "#1D3564",
+        700: "#1B305C",
+        800: "#192D55",
+        900: "#17294E",
+      },
+      secondary: "#1D6363",
+      purple: "#341D63",
       transparent: "transparent",
       current: "currentColor",
       black: colors.black,
