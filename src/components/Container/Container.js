@@ -19,7 +19,7 @@ export default function Container({
 }) {
   const getSize = useMemo(() => {
     return sizes[size] || "max-w-7xl";
-  });
+  }, [size]);
   return (
     <section id={id} className={background}>
       <div

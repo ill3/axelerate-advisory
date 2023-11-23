@@ -126,9 +126,9 @@ export default function Home() {
             loading="lazy"
             width="100%"
             height="276"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
+            frameBorder="0"
+            marginHeight="0"
+            marginWidth="0"
             title="Contact
 "></iframe>
         </div>
