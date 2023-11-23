@@ -9,6 +9,10 @@ export default function Navigation() {
         <Link href="#services">Services</Link>
         <span>/</span>
         <Link href="#contact">Contact</Link>
+        <span>/</span>
+        <Link href="#tally-open=wbWLG0&tally-layout=modal&tally-emoji-text=👋&tally-emoji-animation=wave">
+          Financial Flow
+        </Link>
       </nav>
     </header>
   );
