@@ -1,27 +1,33 @@
 import Container from "@/components/Container/Container";
 import Image from "next/image";
 import heroImage from "@/assets/img/hero-bg.jpeg";
-// import portraitImage from "@/assets/img/portrait.jpeg";
 
 export default function Home() {
   return (
     <main>
       {/* Hero */}
       <Container
-        background="min-h-[50vh] flex items-center mb-64"
+        background="bg-primary-600 min-h-[70vh] flex items-center"
         size="lg"
         className="relative">
         <div className="relative flex">
-          <span className="font-heading text-gray-200 font-bold text-6xl sm:text-7xl md:text-9xl absolute z-10 bottom-12 opacity-50">
+          <div className="w-80 h-80 border-4 border-white font-heading absolute right-0 top-0 opacity-5">
+            <div className="absolute bottom-4 right-5">
+              <span className="text-white text-7xl relative bottom-3">+</span>
+              <span className="text-white text-8xl">A</span>
+            </div>
+          </div>
+
+          <span className="font-heading text-gray-100 font-bold text-6xl sm:text-7xl md:text-9xl absolute z-10 bottom-12 opacity-10">
             welcome to
           </span>
-          <h1 className="font-heading text-5xl sm:text-6xl md:text-8xl font-bold mt-24 z-20 relative">
+          <h1 className="font-heading text-5xl sm:text-6xl md:text-8xl font-bold mt-24 z-20 relative text-white">
             aXelerate advisory
           </h1>
         </div>
 
         <div className="flex justify-end mt-12">
-          <h2 className="font-heading text-4xl text-right font-medium text-primary-600">
+          <h2 className="font-heading text-4xl text-right font-medium text-gray-300">
             &mdash; we are asset, mortgage and commercial specialists
           </h2>
         </div>
