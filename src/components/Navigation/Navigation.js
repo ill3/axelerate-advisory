@@ -78,8 +78,8 @@ export default function Navigation() {
           ))}
           <Link
             href="#tally-open=wbWLG0&tally-layout=modal&tally-emoji-text=👋&tally-emoji-animation=wave"
-            className="rounded bg-indigo-50 px-2 py-1 text-sm font-semibold text-indigo-600 shadow-sm hover:bg-indigo-100">
-            Try our Financial Flow
+            className="rounded bg-indigo-50 px-2 py-1 text-sm font-semibold text-primary-600 shadow-sm hover:bg-indigo-100">
+            Looking for finance?
           </Link>
         </div>
       </nav>
@@ -115,8 +115,8 @@ export default function Navigation() {
               <div className="py-6">
                 <a
                   href="#tally-open=wbWLG0&tally-layout=modal&tally-emoji-text=👋&tally-emoji-animation=wave"
-                  className="rounded bg-indigo-50 px-2 py-1 text-base font-semibold text-indigo-600 shadow-sm hover:bg-indigo-100">
-                  Try our Financial Flow
+                  className="rounded bg-indigo-50 px-2 py-1 text-base font-semibold text-primary-600 shadow-sm hover:bg-indigo-100">
+                  Looking for finance?
                 </a>
               </div>
             </div>

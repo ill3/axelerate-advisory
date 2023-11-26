@@ -18,7 +18,7 @@ export default function Home() {
             </div>
           </div>
 
-          <span className="font-heading text-gray-100 font-bold text-6xl sm:text-7xl md:text-9xl absolute z-10 bottom-12 opacity-10">
+          <span className="font-heading text-gray-100 font-bold text-6xl sm:text-7xl md:text-9xl absolute z-10 bottom-16 sm:bottom-12 opacity-10">
             welcome to
           </span>
           <h1 className="font-heading text-5xl sm:text-6xl md:text-8xl font-bold mt-24 z-20 relative text-white">
@@ -26,9 +26,12 @@ export default function Home() {
           </h1>
         </div>
 
-        <div className="flex justify-end mt-12">
-          <h2 className="font-heading text-4xl text-right font-medium text-gray-300">
-            &mdash; we are asset, mortgage and commercial specialists
+        <div className="flex justify-end mt-12 ">
+          <h2 className="font-heading text-2xl sm:text-4xl max-w-4xl text-right font-medium text-gray-300">
+            &mdash; we are specialist advisors in{" "}
+            <span className="text-white font-bold">commercial</span>,{" "}
+            <span className="text-white font-bold">mortgage</span> and{" "}
+            <span className="text-white font-bold">asset finance</span> broking
           </h2>
         </div>
       </Container>
