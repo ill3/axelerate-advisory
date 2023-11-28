@@ -80,7 +80,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-4 md:order-1 md:mt-0 flex justify-center md:justify-start">
-          <p className="text-center text-xs leading-5 text-gray-500 flex">
+          <div className="text-center text-xs leading-5 text-gray-500 flex">
             <div className="grid text-left">
               <span className="flex gap-2">
                 &copy; 2023 aXelerate advisory. All rights reserved.
@@ -93,7 +93,7 @@ export default function Footer() {
                 License 389328
               </span>
             </div>
-          </p>
+          </div>
         </div>
       </div>
     </footer>

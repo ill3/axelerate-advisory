@@ -143,21 +143,20 @@ export default function PrivacyPolicy() {
               and Nepal.
             </p>
 
-            <p>
-              <ul>
-                <li>
-                  From time to time, we will use your contact details to send
-                  you direct marketing communications including offers, updates
-                  and newsletters that are relevant to the services we provide.
-                  We may do so by mail or electronically unless you tell us that
-                  you do not wish to receive electronic communications.
-                </li>
-                <li>
-                  You can unsubscribe ‘opt-out’ by notifying us and we will no
-                  longer send information to you.
-                </li>
-              </ul>
-            </p>
+            <ul>
+              <li>
+                From time to time, we will use your contact details to send you
+                direct marketing communications including offers, updates and
+                newsletters that are relevant to the services we provide. We may
+                do so by mail or electronically unless you tell us that you do
+                not wish to receive electronic communications.
+              </li>
+              <li>
+                You can unsubscribe ‘opt-out’ by notifying us and we will no
+                longer send information to you.
+              </li>
+            </ul>
+
             <p>
               The information we obtain from you is used, subject to compliance
               with Australia’s privacy and credit reporting laws, only for the
