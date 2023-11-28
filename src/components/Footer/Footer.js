@@ -81,12 +81,18 @@ export default function Footer() {
         </div>
         <div className="mt-4 md:order-1 md:mt-0 flex justify-center md:justify-start">
           <p className="text-center text-xs leading-5 text-gray-500 flex">
-            &copy; 2023 aXelerate advisory. All rights reserved.
-            <span className="flex space-x-2 ml-2">
-              <span>&mdash;</span>
-              {/* <Link href="/disclaimer">Disclaimer</Link> */}
-              <Link href="/privacy-policy">Privacy Policy</Link>
-            </span>
+            <div className="grid text-left">
+              <span className="flex gap-2">
+                &copy; 2023 aXelerate advisory. All rights reserved.
+                <span>&mdash;</span>
+                {/* <Link href="/disclaimer">Disclaimer</Link> */}
+                <Link href="/privacy-policy">Privacy Policy</Link>
+              </span>
+              <span className="text-xs font-italic text-gray-400">
+                Credit Representative Number 553736 &mdash; Australian Credit
+                License 389328
+              </span>
+            </div>
           </p>
         </div>
       </div>
