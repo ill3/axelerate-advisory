@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const navigation = [
   {
     name: "Facebook",
@@ -82,8 +84,8 @@ export default function Footer() {
             &copy; 2023 aXelerate advisory. All rights reserved.
             <span className="flex space-x-2 ml-2">
               <span>&mdash;</span>
-              <span>Disclaimer</span>
-              <span>Privacy Policy</span>
+              {/* <Link href="/disclaimer">Disclaimer</Link> */}
+              <Link href="/privacy-policy">Privacy Policy</Link>
             </span>
           </p>
         </div>

@@ -1,13 +1,13 @@
 import Container from "@/components/Container/Container";
 import Image from "next/image";
-import heroImage from "@/assets/img/hero-bg.jpeg";
+import heroImage from "@/assets/img/hero-axelerate.jpeg";
 
 export default function Home() {
   return (
     <main>
       {/* Hero */}
       <Container
-        background="bg-primary-600 min-h-[70vh] flex items-center"
+        background="bg-primary-600 pt-[64px] min-h-[70vh] flex items-center"
         size="lg"
         className="relative">
         <div className="relative flex">
@@ -18,10 +18,10 @@ export default function Home() {
             </div>
           </div>
 
-          <span className="font-heading text-gray-100 font-bold text-6xl sm:text-7xl md:text-9xl absolute z-10 bottom-16 sm:bottom-12 opacity-10">
+          <span className="font-heading text-gray-100 font-bold text-6xl sm:text-7xl md:text-9xl absolute z-10 bottom-8 sm:bottom-12 opacity-10">
             welcome to
           </span>
-          <h1 className="font-heading text-5xl sm:text-6xl md:text-8xl font-bold mt-24 z-20 relative text-white">
+          <h1 className="font-heading text-5xl sm:text-6xl md:text-8xl font-bold  z-20 relative text-white">
             aXelerate advisory
           </h1>
         </div>
@@ -40,13 +40,14 @@ export default function Home() {
         <div className="-mt-[250px]">
           <Image
             src={heroImage}
-            className="rounded-xl h-[550px] object-cover object-bottom"
+            alt="aXelerate advisory"
+            className="rounded-xl h-[450px] object-cover object-bottom"
           />
         </div>
       </Container>
-
+      <div id="about" className="-mt-24 absolute" />
       {/* About */}
-      <Container id="about" background="bg-gray-100" className="pt-0">
+      <Container background="bg-gray-100" className="pt-0">
         <h2 className="font-heading text-5xl sm:text-6xl md:text-7xl font-bold relative">
           About us
           <span className="text-slate-500 opacity-10 absolute left-0 top-12 text-5xl sm:text-7xl md:text-8xl">

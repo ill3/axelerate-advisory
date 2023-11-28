@@ -10,9 +10,9 @@ import logoFilled from "@/assets/img/axelerate-logo-wordmark.svg";
 import Image from "next/image";
 
 const navigation = [
-  { name: "About", href: "#about" },
-  { name: "Services", href: "#services" },
-  { name: "Contact", href: "#contact" },
+  { name: "About", href: "/#about" },
+  { name: "Services", href: "/#services" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 const TRANSPARENT = "transparent";
@@ -49,13 +49,14 @@ export default function Navigation() {
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between py-2 px-6 lg:px-12"
         aria-label="Global">
-        <a href="#" className="-m-1.5 p-1.5">
+        <Link href="/" className="-m-1.5 p-1.5">
           <span className="sr-only">aXelerate advisory</span>
           <Image
+            alt="aXelerate advisory"
             src={background === TRANSPARENT ? logoFilledWhite : logoFilled}
             className="h-12 w-auto"
           />
-        </a>
+        </Link>
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -77,7 +78,8 @@ export default function Navigation() {
             </Link>
           ))}
           <Link
-            href="#tally-open=wbWLG0&tally-layout=modal&tally-emoji-text=👋&tally-emoji-animation=wave"
+            // href="#tally-open=wbWLG0&tally-layout=modal&tally-emoji-text=👋&tally-emoji-animation=wave"
+            href="#contact"
             className="rounded bg-indigo-50 px-2 py-1 text-sm font-semibold text-primary-600 shadow-sm hover:bg-indigo-100">
             Looking for finance?
           </Link>
@@ -89,7 +91,11 @@ export default function Navigation() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">aXelerate advisory</span>
-              <Image src={logo} className="h-8 w-auto" />
+              <Image
+                alt="aXelerate advisory"
+                src={logo}
+                className="h-8 w-auto"
+              />
             </a>
             <button
               type="button"
@@ -114,7 +120,8 @@ export default function Navigation() {
 
               <div className="py-6">
                 <a
-                  href="#tally-open=wbWLG0&tally-layout=modal&tally-emoji-text=👋&tally-emoji-animation=wave"
+                  // href="#tally-open=wbWLG0&tally-layout=modal&tally-emoji-text=👋&tally-emoji-animation=wave"
+                  href="#contact"
                   className="rounded bg-indigo-50 px-2 py-1 text-base font-semibold text-primary-600 shadow-sm hover:bg-indigo-100">
                   Looking for finance?
                 </a>
