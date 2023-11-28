@@ -5,8 +5,8 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../../assets/img/axelerate-logo.svg";
 
-import logoFilledWhite from "@/assets/img/axelerate-logo-filled-white.svg";
-import logoFilled from "@/assets/img/axelerate-logo-filled.svg";
+import logoFilledWhite from "@/assets/img/axelerate-logo-wordmark-white.svg";
+import logoFilled from "@/assets/img/axelerate-logo-wordmark.svg";
 import Image from "next/image";
 
 const navigation = [
@@ -53,7 +53,7 @@ export default function Navigation() {
           <span className="sr-only">aXelerate advisory</span>
           <Image
             src={background === TRANSPARENT ? logoFilledWhite : logoFilled}
-            className="w-[50px] h-auto"
+            className="h-12 w-auto"
           />
         </a>
         <div className="flex lg:hidden">
