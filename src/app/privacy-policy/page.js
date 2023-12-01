@@ -16,11 +16,10 @@ export default function PrivacyPolicy() {
         <div className="grid gap-8">
           <div>
             <p>
-              At <strong>aXelerate advisory</strong>, we are committed to
-              protecting your privacy in accordance with the Privacy Act 1988
-              (Cth). This Privacy Policy describes our current policies and
-              practices in relation to the handling and use of personal
-              information.
+              At aXelerate advisory, we are committed to protecting your privacy
+              in accordance with the Privacy Act 1988 (Cth). This Privacy Policy
+              describes our current policies and practices in relation to the
+              handling and use of personal information.
             </p>
           </div>
 
@@ -86,25 +85,15 @@ export default function PrivacyPolicy() {
               reporting or document retention requirements
             </p>
             <p>
-              We hold the information we collect from you{" "}
-              <strong>
-                TODO: CHANGE DETAILS HERE:{" "}
-                <em>
-                  brief details of how and where you store your clients’
-                  information
-                </em>
-              </strong>
-              .
+              We hold the information we collect from you in our systems, which
+              all contain two factor authentication and includes cloud storage
+              using Microsoft OneDrive and also in our CRM system Mercury.
             </p>
             <p>
-              We ensure that your information is safe by{" "}
-              <strong>
-                TODO: CHANGE DETAILS HERE:{" "}
-                <em>
-                  insert brief details of how you protect that information, i.e.
-                  describe your security measures and procedures
-                </em>
-              </strong>
+              We ensure that your information is safe by having all our
+              information stored with two factor authentication and with
+              continual back-up using the Microsoft Office 365 suite of
+              products.
             </p>
           </div>
 
@@ -180,28 +169,17 @@ export default function PrivacyPolicy() {
             </p>
             <p>
               If you wish to access or correct your personal information please
-              write to{" "}
-              <strong>
-                TODO:{" "}
-                <em>
-                  insert name and/or title of Privacy Officer and contact/email
-                  address
-                </em>
-              </strong>
+              write to our Privacy Officer at{" "}
+              <a
+                href="mailto:info@axelerateadvisory.com"
+                className="text-primary-600">
+                info@axelerateadvisory.com
+              </a>
               .
             </p>
             <p>
               We do not charge for receiving a request for access to personal
-              information or for complying with a correction request.{" "}
-              <strong>
-                TODO:{" "}
-                <em>
-                  describe here the amount or basis on which you will charge for
-                  providing access to personal information if any. If you do not
-                  propose to charge for this, insert “We do not charge for
-                  providing access to personal information”.
-                </em>
-              </strong>
+              information or for complying with a correction request.
             </p>
           </div>
 
@@ -220,14 +198,12 @@ export default function PrivacyPolicy() {
             </h3>
             <p>
               We welcome your questions and comments about privacy. If you have
-              any concerns or complaints, please contact{" "}
-              <strong>
-                TOOD:{" "}
-                <em>
-                  insert name and/or title, telephone and email of Privacy
-                  Officer
-                </em>
-              </strong>
+              any concerns or complaints, please contact our Privacy Officer on{" "}
+              <a
+                href="mailto:info@axelerateadvisory.com"
+                className="text-primary-600">
+                info@axelerateadvisory.com
+              </a>
               .
             </p>
           </div>
@@ -240,14 +216,13 @@ export default function PrivacyPolicy() {
             <p>
               If you do have a complaint, please let us know by email, because
               if we don’t know about it we can’t fix it. You may also contact us
-              by email addressed to; The Complaints Officer at{" "}
-              <strong>
-                TODO:{" "}
-                <em>
-                  insert name and/or title, telephone and email of Privacy
-                  Officer
-                </em>
-              </strong>
+              by email addressed to; The Complaints Officer at Privacy Officer
+              on{" "}
+              <a
+                href="mailto:info@axelerateadvisory.com"
+                className="text-primary-600">
+                info@axelerateadvisory.com
+              </a>
               , please make sure you include as much information as you can.
             </p>
             <p>
