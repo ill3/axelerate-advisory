@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       {/* Hero */}
       <Container
-        background="bg-primary-600 pt-[64px] min-h-[70vh] flex items-center"
+        background="bg-primary-600 pt-[64px] h-[80vh] min-h-[800px] flex items-center"
         size="lg"
         className="relative">
         <div className="relative flex">
@@ -35,13 +35,14 @@ export default function Home() {
             <span className="text-white font-bold">asset finance</span> broking
           </h2>
           <h3 className="font-heading text-xl sm:text-2xl text-right mt-4 max-w-4xl font-medium text-gray-400">
-            we help get you the right deal for you and your business
+            our purpose is to help clients get the right deal for them and their
+            business.
           </h3>
         </div>
       </Container>
 
       <Container size="xl2" background="bg-gray-100" className="relative">
-        <div className="-mt-[250px]">
+        <div className="-mt-[250px] sm:-mt-[200px] md:-mt-[250px]">
           <Image
             src={heroImage}
             alt="aXelerate advisory"
@@ -61,16 +62,16 @@ export default function Home() {
         <div className="grid lg:grid-cols-2 gap-8 mb:gap-24 mt-8">
           <div className="flex flex-col gap-4">
             <p className="text-2xl font-thin">
-              <strong>aXelerate advisory</strong> was born out of frustration
-              &mdash; we, as Bankers, in having to turn away good clients
-              because the Bank didn’t have appetite for them at that time, or
-              worse we couldn’t offer the best interest rate even though we
-              wanted to look after the client.
+              <strong>aXelerate advisory</strong> was born from a collective
+              realisation derived from our extensive experience in the banking
+              industry.
             </p>
             <p className="text-2xl font-thin">
-              This is why we started aXelerate advisory &mdash; a Finance
-              Broking firm that will use our decades of experience in the
-              finance industry to make sure our clients are getting a fair deal.
+              After years of dedicated service, we encountered the challenge of
+              not always being able to accommodate valuable clients due to
+              limitations in the bank's capacity or its inability to offer the
+              most competitive interest rates, even when our commitment to
+              client care remained steadfast.
             </p>
 
             {/* <p className="text-3xl font-medium my-5">
@@ -79,9 +80,15 @@ export default function Home() {
               finance industry to make sure our clients are getting a fair deal.
             </p> */}
             <p className="text-2xl font-thin">
-              At aXelerate we put the client at the centre of everything we do,
-              to make sure that our clients are achieving their goals both
-              personally and for their business.
+              This is the inspiration behind the establishment of aXelerate
+              Advisory, a Finance Broking firm harnessing decades of collective
+              experience in the finance industry.
+            </p>
+            <p className="text-2xl font-thin">
+              Our mission &mdash; is to ensure our clients receive equitable
+              deals. At aXelerate Advisory we prioritise placing the client at
+              the forefront of all our endeavours, dedicated to ensuring they
+              achieve their personal and business goals.
             </p>
           </div>
 
@@ -90,20 +97,23 @@ export default function Home() {
               Your Finance needs all under one roof
             </p>
             <p className="text-2xl font-thin">
-              Because we have access to over 30 lenders on our panel, we can
-              access the best deal at the time you are ready to talk.
+              Due to our affiliation with over 30 lenders in our network,
+              aXelerate Advisory is well-positioned to secure the most
+              advantageous deal when our clients are prepared to engage in
+              discussions.
             </p>
 
             <p className="text-2xl font-thin">
-              Because we are brokers and not a Bank, we can choose with our
-              clients, which financier is the right fit for each Business or
-              Personal need, whether that be the home loan on your principal
-              place of residence, or a working capital solution for your
-              business.
+              As brokers rather than a bank, we collaborate closely with our
+              clients, helping them determine the most suitable financier for
+              their specific business or personal requirements.
             </p>
-            <p className="text-3xl font-medium mt-5">
-              We will make sure that we understand your needs and concerns and
-              work for the best interest of you, our client.
+            <p className="text-2xl font-thin">
+              Whether it's securing a home loan for your primary residence or
+              finding a working capital solution for your business, we
+              prioritise comprehending your needs and concerns, always working
+              in the best interest of you &mdash;{" "}
+              <strong>our valued client.</strong> 
             </p>
             <div className="absolute bottom-0 h-3 w-full bg-primary-600"></div>
             {/* <div className="grid grid-cols-[65px_1fr] items-center p-4 border-2 rounded-md">
@@ -126,26 +136,28 @@ export default function Home() {
           <div className="flex flex-col shadow-md border border-slate-200 rounded-md px-5 pt-5 pb-12 bg-slate-400 md:col-span-2 text-white">
             <h5 className="font-heading text-2xl font-medium">
               <span className="font-bold underline">Home Loans</span> &ndash;
-              whether for a first home, refinance or to build your dream forever
-              home, we can help.
+              whether it's your first home, a refinancing endeavour, or the
+              dream of building your forever home, we're here to provide the
+              support you need.
             </h5>
           </div>
 
           <div className="flex flex-col shadow-md border border-primary-600 rounded-md px-5 pt-5 pb-8 bg-primary-600 md:col-span-2 text-white">
             <h5 className="font-heading text-2xl font-medium">
               <span className="font-bold underline">Investment Home Loans</span>{" "}
-              &ndash; whether to build a property portfolio, refinance your one
-              investment property or to build up other investments, we can help.
+              &ndash; whether you're building a property portfolio, refinancing
+              a current investment property, or diversifying your investments,
+              you can rely on our expertise.
             </h5>
           </div>
 
           <div className="flex flex-col shadow-md border border-purple rounded-md px-5 pt-5 pb-8 bg-purple text-white md:row-span-2 md:col-span-2 relative">
             <h5 className="font-heading text-2xl font-medium">
               <span className="font-bold underline">Debt Advisory Review</span>{" "}
-              &ndash; aXelerate offers a Debt Advisory Review service, where we
-              can review all your current business or personal finance products
-              and make recommendations based on our understanding of your goals
-              and needs to ensure that you are getting the best solutions.
+              &ndash; explore aXelerate's Debt Advisory Review service, where we
+              thoroughly assess your current business or personal finance
+              products. Our recommendations are tailored to your goals and
+              needs, ensuring you have the most effective solutions in place.
             </h5>
             <div className="absolute bottom-4 right-4 w-1/3 h-2 bg-white rounded-br-md rounded-tr-md"></div>
           </div>
@@ -153,9 +165,9 @@ export default function Home() {
           <div className="flex flex-col shadow-md border border-secondary rounded-md px-5 pt-5 pb-14 bg-secondary md:col-span-4 text-white">
             <h5 className="font-heading text-2xl font-medium">
               <span className="font-bold underline">Business Finance</span>{" "}
-              &ndash; Finance to help your business grow, this could comprise
-              Working Capital solutions, Merger and Acquisition Finance or
-              Succession planning
+              &ndash; fuel the growth of your business with our comprehensive
+              finance solutions, covering Working Capital needs, Merger and
+              Acquisition Finance, or assistance with succession planning.
             </h5>
           </div>
 
@@ -164,8 +176,9 @@ export default function Home() {
               <span className="font-bold underline">
                 Car and Equipment Finance
               </span>{" "}
-              &ndash; helping you source the right funding to get you that new
-              car or that vital piece of equipment.
+              &ndash; let us assist you in securing the right funding for that
+              new car or essential equipment crucial to your business
+              operations.
             </h5>
           </div>
 
@@ -174,8 +187,9 @@ export default function Home() {
               <span className="font-bold underline">
                 Commercial Property Finance
               </span>{" "}
-              &ndash; Finance to help you buy that Commercial property
-              investment or an owner occupied warehouse, office or shopfront.
+              &ndash; secure the financing needed for your commercial property
+              ventures, whether it's an investment or acquiring space for your
+              business—be it a warehouse, office, or shopfront.
             </h5>
           </div>
         </div>
