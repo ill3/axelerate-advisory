@@ -167,7 +167,8 @@ export default function Home() {
               <span className="font-bold underline">Business Finance</span>{" "}
               &ndash; fuel the growth of your business with our comprehensive
               finance solutions, covering Working Capital needs, Merger and
-              Acquisition Finance, or assistance with succession planning.
+              Acquisition Finance, or assisting the financing of your succession
+              plan.
             </h5>
           </div>
 
