@@ -44,7 +44,6 @@ export default function Navigation() {
   }, []);
 
   const handleClose = () => {
-    console.log("why not");
     setOpen(false);
   };
 
