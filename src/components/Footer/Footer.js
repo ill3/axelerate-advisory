@@ -95,10 +95,10 @@ export default function Footer() {
         </div>
         <div className="mt-4 md:order-1 md:mt-0 flex justify-center md:justify-start">
           <div className="text-center text-xs leading-5 text-gray-500 flex">
-            <div className="grid text-left">
-              <span className="flex gap-2">
+            <div className="grid text-center md:text-left">
+              <span className="grid gap-2 md:flex mb-4 md:mb-0">
                 &copy; 2023 aXelerate advisory. All rights reserved.
-                <span>&mdash;</span>
+                <span className="hidden md:inline-flex">&mdash;</span>
                 {/* <Link href="/disclaimer">Disclaimer</Link> */}
                 <Link href="/privacy-policy">Privacy Policy</Link>
               </span>

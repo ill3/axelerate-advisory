@@ -43,6 +43,11 @@ export default function Navigation() {
     };
   }, []);
 
+  const handleClose = () => {
+    console.log("why not");
+    setOpen(false);
+  };
+
   return (
     <header
       className={`fixed w-full z-30 ${`bg-${background}`} transition-all shadow-sm`}>
@@ -85,6 +90,8 @@ export default function Navigation() {
           </Link>
         </div>
       </nav>
+
+      {/* Mobile */}
       <Dialog as="div" className="lg:hidden" open={open} onClose={setOpen}>
         <div className="fixed inset-0 z-40" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-40 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
@@ -110,6 +117,7 @@ export default function Navigation() {
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
                   <a
+                    onClick={handleClose}
                     key={item.name}
                     href={item.href}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
@@ -120,6 +128,7 @@ export default function Navigation() {
 
               <div className="py-6">
                 <a
+                  onClick={handleClose}
                   // href="#tally-open=wbWLG0&tally-layout=modal&tally-emoji-text=👋&tally-emoji-animation=wave"
                   href="#contact"
                   className="rounded bg-indigo-50 px-2 py-1 text-base font-semibold text-primary-600 shadow-sm hover:bg-indigo-100">
