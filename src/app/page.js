@@ -196,6 +196,24 @@ export default function Home() {
         </div>
       </Container>
 
+      <Container background="bg-gray-100">
+        <h2 className="font-heading text-5xl sm:text-6xl md:text-7xl font-bold relative">
+          Tune in
+          <span className="text-slate-500 opacity-10 absolute left-0 top-12 text-5xl sm:text-7xl md:text-8xl">
+            &mdash; listen to our podcast
+          </span>
+        </h2>
+        <div className="mt-8">
+          <iframe
+            src="https://player.blubrry.com/id/127714819?target=simple?cache=1705038902#darkOrLight-Light&shownotes-ffffff&download-ffffff&subscribe-ffffff&share-ffffff&shownotesBackground-101820&downloadBackground-55c4ec&subscribeBackground-101820&shareBackground-55c4ec"
+            title="Blubrry Podcast Player"
+            scrolling="no"
+            width="100%"
+            height="150px"
+            frameborder="0"></iframe>
+        </div>
+      </Container>
+
       {/* Contact */}
       <Container id="contact" background="bg-gray-100">
         <h2 className="font-heading text-5xl sm:text-6xl md:text-7xl font-bold relative">
