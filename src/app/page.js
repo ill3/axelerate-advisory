@@ -206,7 +206,7 @@ export default function Home() {
         <div className="space-y-8 mt-8 mb-16 text-2xl font-thin">
           <p>
             Our Managing Director, Con Voultsios, recently participated in the
-            SlipStream podcast, hosted by Co-Founder Scott Charlton.
+            SlipStream podcast, hosted by SlipStream Co-Founder Scott Charlton.
           </p>
           <p>
             They spent an hour discussing his expertise in Banking and Broking
