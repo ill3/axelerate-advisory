@@ -203,14 +203,18 @@ export default function Home() {
             &mdash; listen to our podcast
           </span>
         </h2>
-        <p className="mt-8 mb-16 text-2xl font-thin">
-          Our Managing Director, Con Voultsios, recently participated in the
-          SlipStream podcast, hosted by Co-Founder Scott Charlton. They spent an
-          hour discussing his expertise in Banking and Broking and specifically
-          focussed on helping Professional Services firms with funding for
-          various reasons, from succession to acquisitions and wealth creation.
-          We hope you find it insightful and helpful!”
-        </p>
+        <div className="space-y-8 mt-8 mb-16 text-2xl font-thin">
+          <p>
+            Our Managing Director, Con Voultsios, recently participated in the
+            SlipStream podcast, hosted by Co-Founder Scott Charlton.
+          </p>
+          <p>
+            They spent an hour discussing his expertise in Banking and Broking
+            and specifically focussed on helping Professional Services firms
+            with funding for various reasons, from succession to acquisitions
+            and wealth creation. We hope you find it insightful and helpful!
+          </p>
+        </div>
 
         <div className="mt-8">
           <iframe
