@@ -19,6 +19,7 @@ module.exports = {
         800: "#192D55",
         900: "#17294E",
       },
+      red: colors.red,
       secondary: "#1D6363",
       purple: "#341D63",
       transparent: "transparent",

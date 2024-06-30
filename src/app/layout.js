@@ -3,9 +3,6 @@ import "./globals.css";
 import Navigation from "@/components/Navigation/Navigation";
 import Footer from "@/components/Footer/Footer";
 
-import { Suspense } from "react";
-import TallyScript from "@/components/Tally/Tally";
-
 // const inter = Inter({ subsets: ["latin"] });
 const figtree = Figtree({
   subsets: ["latin"],
@@ -30,10 +27,6 @@ export default function RootLayout({ children }) {
         <Navigation />
         {children}
         <Footer />
-
-        <Suspense fallback={null}>
-          <TallyScript />
-        </Suspense>
       </body>
     </html>
   );
