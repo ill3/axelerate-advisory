@@ -33,9 +33,9 @@ export default function ContactForm({ submitForm }) {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="grid grid-cols-1 gap-4 md:grid-cols-2 max-w-4xl mx-auto">
+      className="grid grid-cols-1 gap-4 md:grid-cols-2 mx-auto">
       <Input
-        placeholder="First name"
+        label="First name"
         disabled={loading}
         type="text"
         name="first_name"
@@ -45,7 +45,7 @@ export default function ContactForm({ submitForm }) {
         })}
       />
       <Input
-        placeholder="Last name"
+        label="Last name"
         disabled={loading}
         type="text"
         name="last_name"
@@ -55,7 +55,7 @@ export default function ContactForm({ submitForm }) {
         })}
       />
       <Input
-        placeholder="Email"
+        label="Email"
         disabled={loading}
         type="email"
         name="email_address"
@@ -65,7 +65,7 @@ export default function ContactForm({ submitForm }) {
         })}
       />
       <Input
-        placeholder="Mobile"
+        label="Mobile"
         disabled={loading}
         type="tel"
         name="mobile"
@@ -74,7 +74,7 @@ export default function ContactForm({ submitForm }) {
       />
       <Input
         className="col-span-2"
-        placeholder="Any questions, or queries?"
+        label="How can we help?"
         disabled={loading}
         type="textarea"
         rows="3"
@@ -84,8 +84,8 @@ export default function ContactForm({ submitForm }) {
       />
       <div className="col-span-2">
         <button
-          className={`btn-primary flex items-center ${
-            loading ? "text-gray-400 pointer-events-none" : "text-white"
+          className={`py-2 px-4 border-2 rounded-md border-primary-600  font-semibold flex items-center hover:bg-primary-600 hover:text-white transition-all ${
+            loading ? "text-gray-400 pointer-events-none" : "text-primary-600"
           }`}
           type="submit"
           disabled={loading}>
